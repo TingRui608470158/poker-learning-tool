@@ -1,0 +1,12 @@
+# Netscape HTTP Cookie File
+# 这是格式示例，不是真实 Cookie，无法使用。
+#
+# 如何取得 cookies.txt：
+# 1. 在 Edge 安装扩展「Get cookies.txt LOCALLY」
+# 2. 打开 https://www.youtube.com 并登录
+# 3. 点击扩展 → Export → 保存为本目录下的 cookies.txt
+# 4. 运行: python batch_download.py --limit 5
+#
+# 安全：cookies.txt 含登录凭证，勿提交 Git、勿分享。
+
+.example.com	TRUE	/	FALSE	0	placeholder	value

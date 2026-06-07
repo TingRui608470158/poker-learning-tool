@@ -1,0 +1,39 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# YouTube 登录凭证（勿提交）
+scripts/xiao-liu-youtube/cookies.txt
+
+
+# AI 編輯器與 Agent 的巨型快取（一定要排除！）
+.cursor/
+.agents/
+.cursorrules
+
+# Python 環境與虛擬環境快取
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# 虛擬環境工具 uv 的局部快取（如果有的話）
+.uv/
+
+# 前端 Node.js 巨型套件庫
+node_modules/
+.next/
+dist/
+build/
+
+# 作業系統垃圾檔案
+.DS_Store
+Thumbs.db
